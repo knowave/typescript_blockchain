@@ -1,0 +1,9 @@
+{
+  "include": ["src"], // 컴파일 할 폴더
+  "compilerOptions": {
+    "outDir": "dist", // Typescript에서 컴파일 후 Javascript로 컴파일 할 디렉토리 이름
+    "target": "ES6", // 컴파일 된 후 Javascript의 version
+    "lib": ["ES6"], // 합쳐진 라이브러리의 정의 파일을 특정해주는 역할을 하며, 정의 파일의 목표로 하는 런타임 환경을 알려줌. 즉, JS code가 어디에서 동작할지 알려줌. (브라우저냐 서버냐)
+    "strict": true // strict": ture를 통해 strict mode로 해주면, Declaration Files가 없는 경우에 대해서도 에러를 띄워준다.
+  }
+}
